@@ -9,9 +9,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from common import config_base, config_change_lr, config_change_batch, config_change_all, train_model, transform_base, transform_augmented, transform_test
 
 
-
-
-
 # Training ViT with different configs
 def train_vit_variant(train_transform, config, save_path):
     full_trainset = datasets.CIFAR100(root='./data', train=True, download=True, transform=train_transform)
