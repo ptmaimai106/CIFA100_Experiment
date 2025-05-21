@@ -1,0 +1,6 @@
+data/
+Swin/*.pth
+ViT/*.pth
+*.xml
+.idea
+
